@@ -1,0 +1,436 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+	
+
+.seccion{
+background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(teclado.jpg);
+background-size: 1500px;
+}
+.seccion2{
+	height: 100vh;
+	width: 90%;
+	margin: auto;
+}
+.inicio{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	padding-top: 150px;
+	padding-bottom: 150px;
+
+}
+.iniciotexto{
+	text-align: center;
+}
+.iniciotexto .nombre{
+ font-size: 30px;
+ color: #6C63FF;
+ margin-bottom: 10px;
+
+}
+
+.iniciotexto h1{
+	color:  #fff;
+	font-size: 60px;
+margin-bottom: 15px;
+line-height: 40px;
+}
+
+.iniciotexto .descripcion {
+	font-size: 20px;
+	color: #fff;
+	width: 60%;
+ margin: auto;
+	margin-bottom: 35px;
+}
+.iniciotexto span{
+	 color: #6C63FF;
+	 font-weight: 600;
+}
+
+.iniciotexto a{
+	margin-top: 100px;
+	background: #6C63FF;
+	padding: 10px;
+	border-radius: 15px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.iniciotexto a:hover{
+   background: #3F3D56;
+   color: #fff;
+}
+
+.sobre-mi{
+padding-top: 40px;
+	width: 100%;
+}
+.sobre-mi p{
+	font-size: 25px;
+	width: 100%;
+	margin: auto;
+	color: #fff;
+	text-align: center;
+}
+
+.sobre-mi  span{
+		color: #6C63FF;
+		font-weight: 600;
+}
+
+
+
+.trabajos{
+background-image: url(jeremy-perkins-FsK54FVNRfM-unsplash.jpg);
+background-size: 1000px;
+	padding-top: 100px;
+		padding-bottom: 100px;
+}
+
+.trabajotitulo{
+
+	font-size: 30px;
+color: #fff;
+font-weight: 600;
+text-align: center;
+margin-bottom: 100px;
+}
+.trabajosflex{
+
+max-width: 1280px;
+display: flex;
+flex-wrap: wrap;
+	justify-content: space-around;
+	margin: auto;
+}
+.trabajo{
+
+display: flex;
+flex-direction: column;
+margin-bottom: 50px;
+
+}
+
+.trabajo img:hover{
+	width: 515px;
+}
+.trabajo img{
+	width: 500px;
+	transition: .7s;
+}
+
+.trabajo a{
+	margin-top: 20px;
+	background: #6C63FF;
+	padding: 10px;
+	border-radius: 15px;
+	text-decoration: none;
+	color: #fff;
+	width: 50%;
+	margin: 25px auto;
+	font-size: 20px;
+	font-weight: 600;
+	text-align: center;
+}
+
+
+.trabajo a:hover{
+   background: #3F3D56;
+   color: #fff;
+}
+
+
+
+.footer{
+
+	margin: auto;
+}
+
+.footer-1{
+	background: #3F3D56;
+	padding: 70px;
+	text-align: center;
+}
+.footer-1 a{
+	text-decoration: none;
+}
+.footer-1 i{
+	background: #6C63FF;
+	font-size: 25px;
+	padding: 15px;
+	border-radius: 30px;
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+	font-weight: 600;
+}
+
+.footer-1 i:hover{
+	background: #fff;
+	color: #6C63FF;
+}
+
+.footer-1 p{
+	padding-top: 40px;
+	color: #fff;
+	width: 50%;
+	margin: auto;
+}
+/*----Menu----*/
+
+header{
+	background: #586994;
+	width: 100%;
+	box-shadow: 0 0 6px rgba(0, 0, 0, .5);	
+
+	position: fixed;
+	top: 0;
+	z-index: 100;
+
+}
+
+.contenedor{
+	height: 70px;
+	margin-bottom: 70px;
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo{
+	height: 80px;
+}
+
+.logo img{
+	height: 100%;
+	padding-left: 20px;
+	vertical-align: top;
+
+}
+
+nav a{
+	color: #f2f2f2;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 15px;
+	margin-right: 20px;
+	text-align: center;
+
+}
+
+nav a:hover{
+	color: #3F3D56;
+}
+
+.hamburguesa{
+	height: 100%;
+	width: 50px;
+	text-align: center;
+	display: none;
+	color: red;
+}
+
+.hamburguesa img{
+	vertical-align: top;
+	padding: 23px;
+}
+
+@media screen and (max-width:800px){
+	.hamburguesa{
+		display: block;
+	}
+nav a{
+	font-size: 12px;
+text-align: center;
+margin-right: 0px;
+}
+	.enlaces{
+		position: fixed;
+		background: #303a52;
+		left: 0;
+		top: 70px;
+		width: 50%;
+		height: 100vh;
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+		flex-direction: column;
+		transform: translateX(200%);
+	}
+	.enlaces2{
+		transform: translateX(100%);
+	}
+}
+/*----Menu----*/
+
+
+@media screen and (max-width:1195px){
+.inicioimagen img{
+	margin-top: 50px;
+}
+
+.lenguajes p{
+	text-align: center;
+}
+}
+
+@media screen and (max-width:1000px){
+	.sobre-mi{
+		margin: 0;
+	}
+.sobre-mi p{
+	font-size: 20px;
+	margin-bottom: 30px;
+		width: 80%;
+}
+
+.conocimiento img{
+	width: 400px;
+}
+
+}
+
+@media screen and (max-width:780px){
+	
+	.iniciotexto .nombre{
+		font-size: 25px;
+	}
+	.iniciotexto h1{
+font-size: 45px;
+}
+
+.iniciotexto .descripcion{
+	font-size: 17px;
+}
+.inicioimagen img{
+	width: 300px;
+}
+.tituloservicios h2{
+	font-size: 30px;
+}
+
+.trabajotitulo {
+	font-size: 25px;
+}
+.conocimiento img{
+	width: 400px;
+}
+.lenguajes h3{
+	font-size: 30px;
+}
+.lenguajes p{
+	font-size: 20px;
+}
+
+	.sobre-mi p{
+		font-size: 17px;
+
+		
+	}
+
+.footer-1 p{
+	width: 100%;
+}
+
+}
+
+@media screen and (max-width: 640px){
+	.conocimiento img{
+
+	padding: 0px 0px 0px 0px !important;
+}
+
+.lenguajes{
+	padding: 0px 0px 0px 0px !important;
+}
+}
+
+@media screen and (max-width:560px){
+	.trabajo img{
+		width: 300px;
+	}
+
+	.iniciotexto a{
+		font-size: 15px;
+	}
+	.trabajo a{
+		font-size: 15px;
+	}
+	.footer-1 i{
+		font-size: 15px;
+		line-height: 25px;
+	}
+}
+
+@media screen and (max-width:415px){
+		.trabajo img{
+			width: 200px;
+		}
+.servicio img{
+	width: 250px;
+}
+.sobre-mi img{
+	width: 100%;
+}
+.footer-1{
+	padding: 20px;
+}
+	.iniciotexto .nombre{
+		font-size: 20px;
+	}
+	.iniciotexto h1{
+font-size: 30px;
+line-height: 30px;
+}
+
+.iniciotexto .descripcion{
+	font-size: 17px;
+
+}
+.inicioimagen img{
+	width: 200px;
+}
+.tituloservicios h2{
+	font-size: 25px;
+}
+
+.trabajotitulo {
+	font-size: 20px;
+}
+.conocimiento img{
+	width: 200px;
+}
+.lenguajes h3{
+	font-size: 20px;
+}
+.lenguajes p{
+	font-size: 17px;
+}
+
+	.sobre-mi p{
+		font-size: 15px;
+	}
+.footer-1 p{
+	font-size: 15px;
+	width: 100%;
+}
+.trabajos{
+	padding: 30px;
+}
+}
+@media screen and (max-width:350px){
+
+}
+}
